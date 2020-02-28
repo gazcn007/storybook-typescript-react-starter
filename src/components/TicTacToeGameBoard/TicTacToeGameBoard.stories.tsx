@@ -4,7 +4,7 @@ import { withInfo } from "@storybook/addon-info";
 import { TicTacToeGameBoard } from "./TicTacToeGameBoard";
 import { TicTacToeCell } from "../TicTacToeCell";
 
-const stories = storiesOf("Components", module);
+const stories = storiesOf("TicTacToe", module);
 
 stories.addDecorator(withInfo);
 stories.addParameters({ info: { inline: true } });
