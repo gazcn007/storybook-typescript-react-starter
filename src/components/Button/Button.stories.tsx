@@ -14,13 +14,9 @@ stories.add('Button', () => {
         <div className={'controller'}>
             <br/>
             <Button
-                onClick={action("A onClick")}
+                onClick={action("Button onClick")}
             >
-                Button A
-            </Button>
-            <Button
-                onClick={action("B onClick")}>
-                Button B
+                Button
             </Button>
         </div>
     );
