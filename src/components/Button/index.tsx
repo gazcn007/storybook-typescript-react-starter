@@ -3,17 +3,27 @@ import "./Button.css";
 
 interface IProps {
   /**
-   * An array of 9 React elements to serve as the Tic Tac Toe game cells.
+   * Size of the Button
    */
   size: "regular" | "large";
 
   /**
-   * Line style to use when dividing game cells.
+   * Children of the button
    *
-   * @default "solid"
+   * @default "bull"
    */
   children: React.ReactNode;
+  /**
+   * Action when the button is onClick
+   *
+   * @default "action"
+   */
   onClick?: () => void;
+  /**
+   * Whether button is active
+   *
+   * @default "disable"
+   */
   disabled?: boolean;
 }
 
